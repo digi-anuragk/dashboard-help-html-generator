@@ -2,6 +2,13 @@
 
 ## How To
 
+### Install
+run `yarn install` to get all dependencies (for the first time)
+
+> if you face any error
+> 
+> run `corepack enable` on terminal inside project's root and then run `yarn install`
+
 ### Build
 run `yarn build` to build all markdown files present under `intelligence`, and the output will be generated in `build` folder.
 

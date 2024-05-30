@@ -11,7 +11,7 @@ This dashboard is built using the issue_summary dataset.
 Displays summary of issues. Using the Group By filter, you can view the summary of the issues on different dimensions like issue type, state, priority, and resolution. The issue type values are unspecified, impediment, engineering, performance, and process. The example priority values are unspecified, high, medium, and low. The resolution values are unspecified, resolved, and no action. The state values are open and closed.  You can hover the cursor over the panel to see the dimension, issue count, and percentage of dimension.
 
 Here is an example issue summary panel.
-![Issue Summary](./images/issue_summary.PNG)
+![Issue Summary](../images/issue_summary.PNG)
 
 You can filter and view the required data using the following filters:
 
@@ -28,7 +28,7 @@ You can filter and view the required data using the following filters:
  
 You can use these filters to refine the displayed data. For example, you can choose a program from the Program filter to view the corresponding issue summary dashboard. Here is an example program-filtered panel.
 
-![Issue summary filtered panel](./images/issue_summary_filtered_panel.PNG)
+![Issue summary filtered panel](../images/issue_summary_filtered_panel.PNG)
 
 ### Components of dataset
 

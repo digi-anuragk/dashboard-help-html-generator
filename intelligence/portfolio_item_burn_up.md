@@ -7,7 +7,7 @@ The Last refresh date on this dashboard refers to the date and time when the dat
 This dashboard is built using the portfolio_item_burn_up dataset.
 
 Here is an example portfolio item burn up panel.
-![Portfolio Item Burn Up](./images/portfolio_item_burn_up.PNG)
+![Portfolio Item Burn Up](../images/portfolio_item_burn_up.PNG)
 
 You can filter and view the required data using the following filters:
 - Portfolio item: Displays data of a selected portfolio item and all child portfolio items that belong to the portfolio item.
@@ -26,7 +26,7 @@ Forecast is a single possible end date using linear forecasting based on the fol
  
 You can use these filters to refine the displayed data. For example, you can choose an interval from the Interval filter to view the corresponding dashboard. Here is an example interval-filtered panel.
 
-![portfolio Item Burn Up filtered panel](./images/portfolio_item_burn_up_filtered_panel.PNG)
+![portfolio Item Burn Up filtered panel](../images/portfolio_item_burn_up_filtered_panel.PNG)
 
 ### Portfolio Item Burn Up
 Displays the progress of individual portfolio items over time. You can use the Aggregation type filter to switch between viewing the dashboard based on the total estimate or work item count. Each bar on the panel corresponds to the completed story points or completed work item count on a particular calendar date. The x-axis represents the calendar date, and the y-axis represents the work item count or total estimate, depending on the selected aggregation type. You can hover the cursor over the data points to see the metric story points and snapshot date. This panel has the following trend lines:

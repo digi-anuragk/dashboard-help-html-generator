@@ -11,9 +11,9 @@ Displays the team's efficiency in completing work. The position of each dot on t
 
 The Backlog Item Responsiveness has Median or Mode or Average Work item Days and Backlog Item Details grids. The Median or Mode or Average Work item Days displays details like the month or quarter on which the backlog item is closed or completed, the number of completed or closed defects, stories, and test sets, and the average or median or  mode time that a backlog item is in the "in progress" status. The backlog item details displays details like the month or quarter on which the backlog item is closed or completed, work item ID, completed date, closed date, work item source URL, and in progress duration in days.
 
-You can also click the ![source icon](./images/source_icon.PNG) icon against the work item number to launch the source system and view more backlog item details such as status, description, owner and team.
+You can also click the ![source icon](../images/source_icon.PNG) icon against the work item number to launch the source system and view more backlog item details such as status, description, owner and team.
 
-![Backlog Item Responsiveness](./images/backlog_item_responsiveness.PNG)
+![Backlog Item Responsiveness](../images/backlog_item_responsiveness.PNG)
 
 
 You can filter and view the required data using the following filters:
@@ -30,7 +30,7 @@ The Planning level and Program filters cascade each other.
  
 You can use these filters to refine the displayed data. For example, you can choose a program from the Program filter to see the corresponding dashboard. Here is an example program-filtered panel.
 
-![Backlog Item Responsiveness filtered panel](./images/backlog_item_responsiveness_filtered_panel.PNG)
+![Backlog Item Responsiveness filtered panel](../images/backlog_item_responsiveness_filtered_panel.PNG)
 
 ### Components of dataset
 

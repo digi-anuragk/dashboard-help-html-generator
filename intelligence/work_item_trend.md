@@ -10,7 +10,7 @@ This dashboard is built using the work_item_snapshot_daily dataset.
 Displays trend analysis and detailed information about work items in a program. Within the grid, you can find work item details such as calendar date and work item count in different work item statuses like unspecified, completed, and in progress. Using the Aggregation Type filter, you can view the trend of work items on different dimensions like work item count and total estimate. Each bar on this panel represents a date. The height of the bar represents the total number of work items in the selected planning level or program on that date. The X-axis represents the calendar date, and the Y-axis represents the work item count. You can hover over the panel to see the calendar date, state, status, and work item count.
 
 Here is an example work item trend panel.
-![Work Item Trend](./images/work_item_trend.png)
+![Work Item Trend](../images/work_item_trend.png)
 
 You can filter and view the required data using the following filters:
 
@@ -34,7 +34,7 @@ You can filter and view the required data using the following filters:
  
 You can use these filters to refine the displayed data. For example, you can choose an iteration from the Iteration filter to view the corresponding work item trend dashboard. Here is an example iteration-filtered panel.
 
-![Work Item Trend filtered panel](./images/work_item_trend_filtered_panel.PNG)
+![Work Item Trend filtered panel](../images/work_item_trend_filtered_panel.PNG)
 
 
 ### Components of dataset

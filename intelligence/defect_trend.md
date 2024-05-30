@@ -10,7 +10,7 @@ This dashboard is built using the defect_snapshot_daily dataset.
 Displays trend analysis of the defect count. Using the Group By filter, you can view the trend of defects on different dimensions like defect type, status, and priority. Each bar on this panel represents a date. The bar's height represents the total number of defects in the selected planning level or program on that date. The priority levels are high, medium, and low. The defect types are unspecified, release, pre-release, and documentation. The status values are unspecified, completed, and in progress. The x-axis represents the calendar date, and the y-axis represents the defect count. You can hover the cursor over the panel to see the dimension, defect count, and calendar date.
 
 Here is an example defect trend panel.
-![Defect Trend](./images/defect_trend.PNG)
+![Defect Trend](../images/defect_trend.PNG)
 
 You can filter and view the required data using the following filters:
 
@@ -34,7 +34,7 @@ You can filter and view the required data using the following filters:
 
 You can use these filters to refine the displayed data. For example, you can choose an iteration from the Iteration filter to view the corresponding defects trend dashboard. Here is an example iteration filtered panel.
 
-![Defect Trend filtered panel](./images/defect_trend_filtered_panel.PNG)
+![Defect Trend filtered panel](../images/defect_trend_filtered_panel.PNG)
 
 ### Components of dataset
 The following components of the dataset are used in this dashboard: 

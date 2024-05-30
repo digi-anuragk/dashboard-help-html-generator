@@ -9,7 +9,7 @@ This dashboard is built using the iteration_planned_vs_actual dataset.
 ### Story Count by Iteration
 Displays the trend of stories in iterations. Each bar on this panel represents the planned, added, and completed stories in an iteration. This panel also has a trend line that displays the percentage of completed stories in an iteration. The x-axis represents the iteration, and the y-axis represents the planned, added, and completed story count. You can hover the cursor over the panel to see the iteration name, planned, added, and completed count stories in an iteration.
 
-![Story count by iteration](./images/story_count_by_iteration.png)
+![Story count by iteration](../images/story_count_by_iteration.png)
 
 You can filter and view the required data using the following filters:
 
@@ -26,7 +26,7 @@ You can filter and view the required data using the following filters:
 - Iteration start date range: Displays data of stories in the selected date range. This filter filters the data for the last six months by default.
  
 You can use these filters to refine the displayed data. For example, you can choose a team from the Team filter to view the corresponding story count by iteration dashboard. Here is an example iteration-filtered panel.
-![Story count by iteration filtered panel](./images/story_count_by_iteration_filtered_panel.png)
+![Story count by iteration filtered panel](../images/story_count_by_iteration_filtered_panel.png)
 
 ### Components of dataset
 The following components of the dataset are used in this dashboard: 

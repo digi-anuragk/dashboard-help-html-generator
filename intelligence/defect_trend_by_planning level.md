@@ -12,7 +12,7 @@ Displays trends of defects across various planning levels. Each bar on this pane
   
 Here is an example Defect Trend By Planning Level panel.
 
-![Defect Trend By Planning Level](./images/defect_trend_by_planning_level.png)
+![Defect Trend By Planning Level](../images/defect_trend_by_planning_level.png)
 
 You can filter and view the required data using the following filters:
 
@@ -33,7 +33,7 @@ You can filter and view the required data using the following filters:
 - Group by: Displays data of defects in any of the following dimensions: status, priority, and defect type.
  
 You can use these filters to refine the displayed data. For example, you can choose a program from the Program filter to view the corresponding dashboard. Here is an example program-filtered panel.
-![Defect trend By Planning Level filtered panel](./images/defect_trend_by_planning_level_filtered_panel.png)
+![Defect trend By Planning Level filtered panel](../images/defect_trend_by_planning_level_filtered_panel.png)
 
 
 ### Components of dataset

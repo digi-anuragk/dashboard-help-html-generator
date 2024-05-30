@@ -10,7 +10,7 @@ This dashboard is built using the work_item_in_status dataset.
 
 
 Here is an example Work Item Cycle Time Summary panel.
-![ Work Item Cycle Time Summary](./images/work_item_cycle_time_summary.png)
+![ Work Item Cycle Time Summary](../images/work_item_cycle_time_summary.png)
 
 You can filter and view the required data of work items using the following filters:
 
@@ -41,7 +41,7 @@ If you choose a cycle start range value that is higher than the rank of the cycl
  
 You can use these filters to refine the displayed data. For example, you can choose a program from the Program filter to view the corresponding dashboard. Here is an example program-filtered panel.
 
-![Work Item Cycle Time Summary filtered panel](./images/work_item_cycle_time_summary_filtered_panel.PNG)
+![Work Item Cycle Time Summary filtered panel](../images/work_item_cycle_time_summary_filtered_panel.PNG)
 
 
 ### All work item items

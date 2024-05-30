@@ -14,6 +14,7 @@ import remarkAdmon from "./lib/addAdmonitions.js";
 import remarkDirective from "remark-directive";
 import remarkFrontmatter from "remark-frontmatter";
 import remarkGfm from "remark-gfm";
+import { remarkImageSrcChanger } from "./lib/changeImagePath.js";
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import { template } from "rehype-template";
@@ -53,6 +54,7 @@ const processor = unified()
   .use(remarkGfm)
   .use(remarkDirective)
   .use(remarkAdmon)
+  .use(remarkImageSrcChanger)
   .use(remarkRehype)
   .use(template, { template: HTMLtemplate })
   .use(rehypeSlug)

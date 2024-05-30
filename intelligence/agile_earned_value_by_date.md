@@ -47,7 +47,7 @@ The grid displays details like calendar date, targeted work, velocity of each it
   
 Here is an example agile earned value by date panel.
 
-![Agile Earned Value by Date](./images/agile_earned_value_by_date.PNG)
+![Agile Earned Value by Date](../images/agile_earned_value_by_date.PNG)
 
 You can filter and view the required data using the following filters:
 
@@ -68,7 +68,7 @@ You can filter and view the required data using the following filters:
 - Group by: Displays data of work items in any of the following dimensions: total estimate and work item count.
  
 You can use these filters to refine the displayed data. For example, you can choose a backlog goal from the Backlog goal filter to view the corresponding dashboard. Here is an example backlog goal-filtered panel.
-![Agile Earned Value by Date filtered panel](./images/agile_earned_value_by_date_filtered_panel.PNG)
+![Agile Earned Value by Date filtered panel](../images/agile_earned_value_by_date_filtered_panel.PNG)
 
 ### Components of dataset
 

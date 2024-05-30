@@ -16,7 +16,7 @@ The Agile Earned Value dashboard consists of the following tabs:
 
 
 Here is an example Agile earned value panel.
-![Agile earned value](./images/agile_earned_value.PNG)
+![Agile earned value](../images/agile_earned_value.PNG)
 
 You can filter and view the required data using the following filters:
 
@@ -38,7 +38,7 @@ You can filter and view the required data using the following filters:
  
 You can use these filters to refine the displayed data. For example, you can choose a program from the Program filter to view the corresponding dashboard. Here is an example program-filtered panel.
 
-![Agile earned value filtered panel](./images/agile_earned_value_filtered_panel.PNG)
+![Agile earned value filtered panel](../images/agile_earned_value_filtered_panel.PNG)
 
 ### Agile Earned Value
 Displays the trend of work items completed at the end of each iteration and those defined on the first day of the planning level. This panel also has a bar chart that displays the total number of work items completed in each iteration. The x-axis represents the iterations, and the y-axis represents the work item count or total estimate depending on the tab. You can hover the cursor over the graphs to see the iteration name and total and completed estimates or total and completed work item or target or ideal or velocity. This panel has the following trend lines:

@@ -10,7 +10,7 @@ This dashboard is built using the work_item_summary dataset.
 
 Displays a visual summary of your work items. Using the Group By filter, you can view the tree map on different dimensions like work item, iteration, work item type, backlog group, and portfolio item. Each tile represents a specific work item you need to work on. The size of these tiles is associated with the work involved.  If a task is expected to take a lot of effort (high estimate points), the tile is bigger. If it's a smaller task, the tile is smaller. You can hover over the panel to see the dimension, estimate, status, priority, and detail estimate.
 
-![Work Item TreeMap](./images/work_item_treemap.png)
+![Work Item TreeMap](../images/work_item_treemap.png)
 
 You can filter and view the required data using the following filters:
 
@@ -35,7 +35,7 @@ The Size represents filter defaults to To Do as the metric, while the Color repr
 
 You can use these filters to refine the displayed data. For example, you can choose an iteration from the Iteration filter to view the corresponding work item tree map. Here is an example iteration-filtered panel.
 
-![Work Item TreeMap filtered panel](./images/work_item_treemap_filtered_panel.PNG)
+![Work Item TreeMap filtered panel](../images/work_item_treemap_filtered_panel.PNG)
 
 ### Components of dataset
 The following components of the dataset are used in this dashboard: 

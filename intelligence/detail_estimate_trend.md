@@ -10,7 +10,7 @@ This dashboard is built using the work_item_snapshot_daily dataset.
 Displays trend of detail estimate. Each data point on the panel represents the total detail estimate value for a given date. Using the Work item type filter, you can view the detail estimate based on different work item types like defect, story, and test set. The x-axis represents the date, and the y-axis represents the detail estimate count. You can hover the cursor over the panel to see the calendar date and detailed estimate.
 
 Here is an example detail estimate trend panel.
-![Detail Estimate Trend panel](./images/detail_estimate_trend.png)
+![Detail Estimate Trend panel](../images/detail_estimate_trend.png)
 
 You can filter and view the required data using the following filters:
 
@@ -33,7 +33,7 @@ You can filter and view the required data using the following filters:
 
 You can use these filters to refine the displayed data. For example, you can choose a team from the Team filter to view the corresponding detail estimate trend dashboard. Here is an example team-filtered panel.
 
-![Detail estimate trend filtered panel](./images/detail_estimate_trend_filtered_panel.png)
+![Detail estimate trend filtered panel](../images/detail_estimate_trend_filtered_panel.png)
 
 
 ### Components of dataset

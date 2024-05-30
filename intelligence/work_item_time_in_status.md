@@ -7,7 +7,7 @@
 This dashboard is built using the work_item_in_status dataset. 
 
 Here is an example work item time in status panel.
-![Work Item Time In Status](./images/work_item_time_in_status.png)
+![Work Item Time In Status](../images/work_item_time_in_status.png)
 
 You can filter and view the required data using the following filters:
 
@@ -31,7 +31,7 @@ You can filter and view the required data using the following filters:
  
 You can use these filters to refine the displayed data. For example, you can choose an iteration from the Iteration filter to view the corresponding work item time in status dashboard. Here is an example iteration-filtered panel.
 
-![Work Item Time In Status filtered panel](./images/work_item_time_in_status_filtered_panel.png)
+![Work Item Time In Status filtered panel](../images/work_item_time_in_status_filtered_panel.png)
 
 ### All Work Items
 Displays the duration of a work item in a specific status. Each dot on this panel represents a single work item. The dot position on the y-axis represents the days the work item is in the selected status. The dot position on the x-axis represents the last date the work item is seen in the selected status. It also has a 95th Percentile line indicating the maximum number of days that 95% of the work items are spent in the status value. The x-axis represents the last status date, and the y-axis represents the days in status. You can hover the cursor over the dot to see the work item number, last status date, and days that a work item is in the status.
@@ -39,7 +39,7 @@ Displays the duration of a work item in a specific status. Each dot on this pane
 ### All Backlog Items in Status
 Displays detailed information about work items. The provided information includes various details such as ID, work item link, title, state, created on, first date in status, last date in status, and days in status. This grid lists the details of all work items categorized under All Work Items.
 
-You can also click the ![source](./images/source_icon.PNG) icon against the work item ID to launch the source system and view more work item details such as status, description, owner and team.
+You can also click the ![source](../images/source_icon.PNG) icon against the work item ID to launch the source system and view more work item details such as status, description, owner and team.
 
 ### Components of dataset
 

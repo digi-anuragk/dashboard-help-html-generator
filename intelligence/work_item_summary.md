@@ -11,7 +11,7 @@ Displays summary of work items. Using the Group By filter, you can view the summ
 
 Here is an example work item summary panel.
 
-![Work item summary](./images/work_item_summary.PNG)
+![Work item summary](../images/work_item_summary.PNG)
 
 You can filter and view the required data using the following filters:
 
@@ -33,7 +33,7 @@ You can filter and view the required data using the following filters:
  
 You can use these filters to refine the displayed data. For example, you can choose a program from the Program filter to view the corresponding work item summary dashboard. Here is an example program-filtered panel.
 
-![Work item summary filtered panel](./images/work_item_summary_filtered_panel.PNG)
+![Work item summary filtered panel](../images/work_item_summary_filtered_panel.PNG)
 
 ### Components of dataset
 The following components of the dataset are used in this dashboard: 

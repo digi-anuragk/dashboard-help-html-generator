@@ -11,7 +11,7 @@ The Velocity Trend Planned vs Actual dashboard consists of the following tabs:
 - Work Item Count: This tab provides the velocity trend of work items based on their count.
 
 Here is an example velocity trend planned vs actual panel.
-![Velocity Trend Planned vs. Actual](./images/velocity_trend_planned_vs_actual_panel.png)
+![Velocity Trend Planned vs. Actual](../images/velocity_trend_planned_vs_actual_panel.png)
 
 You can filter and view the required data using the following filters:
 
@@ -29,7 +29,7 @@ You can filter and view the required data using the following filters:
  
 You can use these filters to refine the displayed data. For example, you can choose a team from the Team filter to view the corresponding velocity trend planned vs actual dashboard. Here is an example team-filtered panel.
 
-![Velocity Trend Planned vs. Actual](./images/velocity_trend_planned_vs_actual_panel_filtered_panel.png)
+![Velocity Trend Planned vs. Actual](../images/velocity_trend_planned_vs_actual_panel_filtered_panel.png)
 
 ### Velocity Trend Planned vs Actual (Total Estimate)
 Displays trends and details of the total estimate for the iterations. This panel has two bars (actual and planned) for each iteration. The planned bar displays the planned work, and the actual bar displays the completed work. Within the grid, you can find total estimate details such as iteration name, planned, actual, and completed % of total estimate. The x-axis represents the iteration, and the y-axis represents the planned and actual total estimate.

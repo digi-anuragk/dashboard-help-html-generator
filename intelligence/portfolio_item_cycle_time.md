@@ -9,7 +9,7 @@ The Last refresh date on this dashboard refers to the date and time when the dat
 This dashboard is built using the portfolio_item_time_in_status dataset.
 
 Here is an example portfolio item cycle time panel.
-![Portfolio Item Cycle Time](./images/portfolio_item_cycle_time.PNG)
+![Portfolio Item Cycle Time](../images/portfolio_item_cycle_time.PNG)
 
 You can filter and view the required data using the following filters:
 - Planning level: Displays data of portfolio items in the selected planning level and all child planning levels that belong to the planning level.
@@ -32,7 +32,7 @@ If you choose a cycle start range value that is higher than the rank of the cycl
  
 You can use these filters to refine the displayed data. For example, you can choose a program from the Program filter to view the corresponding dashboard. Here is an example program-filtered panel.
 
-![portfolio Item Cycle Time filtered panel](./images/portfolio_item_cycle_time_filtered_panel.PNG)
+![portfolio Item Cycle Time filtered panel](../images/portfolio_item_cycle_time_filtered_panel.PNG)
 
 ### All portfolio items
 Displays the trend of the portfolio item in cycle time. The scatter plot panel visualizes the cycle time of tracked portfolio items based on total estimate grouping.  Each Total Estimate grouping on the scatter plot consists of the following three data points:

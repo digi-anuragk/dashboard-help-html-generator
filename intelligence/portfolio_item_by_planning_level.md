@@ -7,7 +7,7 @@ The Last refresh date on this dashboard refers to the date and time when the dat
 This dashboard is built using the portfolio_item_summary dataset.
 
 Here is an example portfolio item delivery by planning level panel.
-![Portfolio Item Delivery by Planning Level](./images/portfolio_item_delivery_by_planning_level.PNG)
+![Portfolio Item Delivery by Planning Level](../images/portfolio_item_delivery_by_planning_level.PNG)
 
 You can filter and view the required data using the following filters:
 
@@ -27,7 +27,7 @@ You can filter and view the required data using the following filters:
  
 You can use these filters to refine the displayed data. For example, you can choose a program from the Program filter to view the corresponding dashboard. Here is an example program-filtered panel.
 
-![Portfolio Item Delivery by Planning Level panel](./images/portfolio_item_delivery_by_planning_level_filtered_panel.PNG)
+![Portfolio Item Delivery by Planning Level panel](../images/portfolio_item_delivery_by_planning_level_filtered_panel.PNG)
 
 ### Portfolio Item Delivery by Planning Level
 
@@ -43,13 +43,13 @@ Displays a summary of portfolio items organized by planning level. This panel an
 
 Displays details of immediate child portfolio items including their ID, source URL, name, planning level, backlog work item count, total swag, total value, and total estimate. Each row represents a different child portfolio item within the selected planning level or program. 
 
-You can also click the ![source](./images/source_icon.PNG) icon against the portfolio item ID to launch the source system and view more work item details such as status, description, owner and team.
+You can also click the ![source](../images/source_icon.PNG) icon against the portfolio item ID to launch the source system and view more work item details such as status, description, owner and team.
 
 ### Portfolio items
 
 Displays details of top-most portfolio items including their ID, source URL, name, planning level, backlog work item count, total swag, total value, and total estimate. Each row represents a different top-most portfolio item within the selected planning level or program.
 
-You can also click the ![source](./images/source_icon.PNG) icon against the portfolio item ID to launch the source system and view more work item details such as status, description, owner and team.
+You can also click the ![source](../images/source_icon.PNG) icon against the portfolio item ID to launch the source system and view more work item details such as status, description, owner and team.
 
 
 ### Components used in this dashboard

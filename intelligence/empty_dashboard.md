@@ -12,25 +12,25 @@ You can copy an out-of-the-box dashboard and customize it based on your requirem
 ## Dashboard components
 A dashboard has the following key components and sections:
 - **KPIs**: Displays important metrics that represent the performance of the system or the process. Here is an example KPI.
-![KPI](./images/kpis.PNG)
+![KPI](../images/kpis.PNG)
 - **Panel**: It refers to a container or a section within the dashboard layout where visualizations, widgets, or other dashboard elements are placed. You can use the panel to visualize various aspects of your data, such as KPIs, trends, comparisons, or detailed reports. You can use the panel as a chart or grid. The chart is a graphical representation of data that conveys trends, patterns, and insights. The chart types are bar, line, pie, scatter plot, and heatmap. Grid is a tabular representation of data, organized in rows and columns. Here is an example panel.
-  ![Panel](./images/example_panel.PNG)
+  ![Panel](../images/example_panel.PNG)
 
 Here is an example chart.
-![Chart](./images/example_chart.PNG)
+![Chart](../images/example_chart.PNG)
 
 Here is an example grid.
-![grid](./images/example_grid.PNG)
+![grid](../images/example_grid.PNG)
  - **Tab**: It refers to a navigational element that allows you to switch between different sections or views within the dashboard. You can use tabs to view multiple sets of related content or analyses in a single dashboard. Here is an example tab.
-  ![Tab](./images/Tab.PNG)
+  ![Tab](../images/Tab.PNG)
 - **Filter**: Filters in a dashboard serve as a tool to selectively control the data presented in visualizations and other dashboard elements. You can refine your analysis by setting specific criteria or conditions that the data must meet. Each filter allows you to focus on different aspects of the data, enabling comparisons across panels based on various parameters. Additionally, cascading filters enhance usability by dynamically adjusting the filter values based on the selection made in a dashboard. For example, selecting a value in one filter triggers other filters to display related values, facilitating a more streamlined and targeted analysis process. Here is an example filter.
-![Filter](./images/filter.PNG)
+![Filter](../images/filter.PNG)
 - **Chapter**: Chapters provide a hierarchical structure for organizing the content of the dashboard. They help break down large amounts of information into smaller, more manageable sections. Each chapter typically focuses on a specific topic, analysis, or set of data. This segmentation allows users to navigate directly to the sections that are most relevant to their interests or needs.
 - **Dataset**: It refers to a collection of data organized and stored together. Data stored in a structured format in the form of a table related to a specific domain or business process is a dataset. Each dataset contains rows and columns of data, where each row represents a record, and each column represents a data attribute or field.
 - **Attribute**: It refers to a characteristic or property of an entity or object. Attributes provide descriptive information about the entity and are stored in database tables or datasets as columns.
 - **Metric**: It refers to a quantitative measure or indicator used to assess, analyze, and track the performance or behavior of a business process, system, or activity. Metric helps you measure various aspects of your organization's operations. You can make informed decisions and evaluate success in achieving specific objectives.
  Here is an example attribute and metric.
-![attribute and metric](./images/atttribute_and_metrics.PNG)
+![attribute and metric](../images/atttribute_and_metrics.PNG)
 
 You can perform other tasks like exporting and duplicating in a dashboard.
 

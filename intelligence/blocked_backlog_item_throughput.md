@@ -10,7 +10,7 @@ This dashboard is built using the blocked_backlog_item_throughput dataset.
 Displays the trend of blocked backlog items at a specific time. Each bar on this panel represents the total number of blocked backlog items in the period shown on the x-axis. Each bar is grouped by blocked backlog item type. The x-axis represents the calendar month or quarter, and the y-axis represents the blocked backlog item count. You can hover the cursor over a bar to view work item type, interval, and blocked backlog item count.
 
 Here is an example blocked backlog item throughput panel.
-![Blocked Backlog Item Throughput](./images/blocked_backlog_item_throughput.PNG)
+![Blocked Backlog Item Throughput](../images/blocked_backlog_item_throughput.PNG)
 
 
 You can filter and view the required data using the following filters:
@@ -27,7 +27,7 @@ You can filter and view the required data using the following filters:
  
 You can use these filters to refine the displayed data. For example, you can choose a program from the Program filter to see the corresponding dashboard. Here is an example program-filtered panel.
 
-![Blocked Backlog Item Throughput filtered panel](./images/blocked_backlog_item_throughput_filtered_panel.PNG)
+![Blocked Backlog Item Throughput filtered panel](../images/blocked_backlog_item_throughput_filtered_panel.PNG)
 
 ### Components of dataset
 

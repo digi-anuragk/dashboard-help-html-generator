@@ -11,11 +11,11 @@ Displays the trend of backlog items at a specific time. Each bar on this panel r
 
 The dashboard has backlog item count and backlog item details grids. The backlog item count displays backlog item details like metrics, backlog item count, month or quarter on which the backlog item is closed or completed, number of completed or closed defects and stories, and total count of completed or closed backlog items for a specific period. The backlog item details displays details like the month or quarter on which the backlog item is closed or completed, work item ID, completed date, closed date, work item source URL, and total estimate. The Backlog Item Throughput drives these two grids. 
 
-You can also click the ![source icon](./images/source_icon.PNG) icon against the work item ID to launch the source system and view more backlog item details such as status, description, owner and team.
+You can also click the ![source icon](../images/source_icon.PNG) icon against the work item ID to launch the source system and view more backlog item details such as status, description, owner and team.
 
 
 Here is an example backlog item throughput panel.
-![Backlog Item Throughput](./images/backlog_item_throughput.PNG)
+![Backlog Item Throughput](../images/backlog_item_throughput.PNG)
 
 
 You can filter and view the required data using the following filters:
@@ -33,7 +33,7 @@ You can filter and view the required data using the following filters:
  
 You can use these filters to refine the displayed data. For example, you can choose a program from the Program filter to see the corresponding dashboard. Here is an example program-filtered panel.
 
-![Backlog Item Throughput filtered panel](./images/backlog_item_throughput_filtered_panel.PNG)
+![Backlog Item Throughput filtered panel](../images/backlog_item_throughput_filtered_panel.PNG)
 
 ### Components of dataset
 

@@ -21,7 +21,7 @@ For example, using a 3-month interval:
 
 The data considered for these averages is the backlog item throughput value for the respective periods. This value represents the number of completed or closed backlog items during the specified time frame. It does not include backlog items that are in progress.
 
-![Backlog Item Predictability](./images/backlog_item_predictability.PNG)
+![Backlog Item Predictability](../images/backlog_item_predictability.PNG)
 
 
 You can filter and view the required data using the following filters:
@@ -36,7 +36,7 @@ You can filter and view the required data using the following filters:
  
 You can use these filters to refine the displayed data. For example, you can choose a program from the Program filter to see the corresponding dashboard. Here is an example program-filtered panel.
 
-![Backlog Item Predictability filtered panel](./images/backlog_item_predictability_filtered_panel.PNG)
+![Backlog Item Predictability filtered panel](../images/backlog_item_predictability_filtered_panel.PNG)
 
 ### Components of dataset
 

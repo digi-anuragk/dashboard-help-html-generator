@@ -12,7 +12,7 @@ This dashboard is built using the defect_summary dataset.
 Displays a summary and detailed information about defects in a program. Within the grid, you can find defect details such as dimensions, count, and percentage for each defect. Using the Group By filter, you can view a summary and details of defects based on different dimensions like status, priority, and defect type. The status values are unspecified, done, open, and in progress. The defect types are release, unspecified, pre-release, and documentation. The defect priority values are high, medium, and low. You can hover the cursor over the panel to see the dimension, defect count, and percentage of dimension.
 
 Here is an example defect summary panel.
-![Defect Summary](./images/defect_summary.PNG)
+![Defect Summary](../images/defect_summary.PNG)
 
 You can filter and view the required data of defects using the following filters:
 
@@ -34,7 +34,7 @@ You can filter and view the required data of defects using the following filters
 
  Refer to the [Agility User guide](https://docs.digital.ai/bundle/agility-onlinehelp/page/Content/Digital.ai_Agility/Digital.ai_Agility.htm) to get more details about the agility parameters like planning level, program, backlog group, backlog goal, and iteration. You can use these filters to refine the displayed data. For example, you can choose a program from the Program filter to view the corresponding defects summary dashboard. Here is an example program-filtered panel.
 
-![Defect Summary filtered panel](./images/defect_summary_filtered_panel.PNG)
+![Defect Summary filtered panel](../images/defect_summary_filtered_panel.PNG)
 
 ### Components of dataset
 

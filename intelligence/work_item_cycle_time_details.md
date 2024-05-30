@@ -9,7 +9,7 @@ The Last refresh date on this dashboard refers to the date and time when the dat
 This dashboard is built using the work_item_in_status dataset. 
 
 Here is an example work item cycle time details panel.
-![Work Item Cycle Time Details](./images/work_item_cycle_time_details.png)
+![Work Item Cycle Time Details](../images/work_item_cycle_time_details.png)
 
 You can filter and view the required data using the following filters:
 - Planning level: Displays data of work items in the selected planning level and all child planning levels that belong to the planning level.
@@ -38,7 +38,7 @@ If you choose a cycle start range value that is higher than the rank of the cycl
  
 You can use these filters to refine the displayed data. For example, you can choose an iteration from the Iteration filter to view the corresponding dashboard. Here is an example iteration-filtered panel.
 
-![Work Item Cycle Time Details filtered panel](./images/work_item_cycle_time_details_filtered_panel.png)
+![Work Item Cycle Time Details filtered panel](../images/work_item_cycle_time_details_filtered_panel.png)
 
 ### All work item items
 Displays the trend of the work item in cycle time. This scatter plot represents one dot for every work item that completed the defined cycle after the beginning date. The x-axis dot is determined by the date the work item exited the cycle. The y-axis dot is determined by the duration of the work item in the cycle, in days. The x-axis represents the last date in status and the y-axis represents the cycle time. You can hover the cursor over each dot to see the work item number, work item title, last date in status, and cycle time.
@@ -46,7 +46,7 @@ Displays the trend of the work item in cycle time. This scatter plot represents 
 ### All work item items - details
 Displays details of all backlog items, along with work item, work item source URL, cycle time, and last date in status.  The All backlog items drives this gird.
 
-You can also click the ![source](./images/source_icon.PNG) icon against the work item ID to launch the source system and view more work item details such as status, description, owner and team.
+You can also click the ![source](../images/source_icon.PNG) icon against the work item ID to launch the source system and view more work item details such as status, description, owner and team.
 
 ### Components used in this dashboard
 The following components of the dataset are used in this dashboard: 

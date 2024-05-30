@@ -10,7 +10,7 @@ This dashboard is built using the test_trend dataset.
 Displays test trends in the selected planning level or program. The height of each bar on this panel displays the number of tests in the selected planning level or program on a given date. Using the Work item type filter, you can view the test trend based on different work item types like defect, story, and test set. The defect values are unspecified, ready, passed, failed, and developing. The story values are unspecified, ready, passed, failed, and developing. The test set values are unspecified, passed, and failed. The x-axis represents the date, and the y-axis represents the test count. You can hover the cursor over the panel to see the status, calendar date, and test count.
 
 Here is an example test trend panel.
-![Test Trend](./images/Test_Trend.png)
+![Test Trend](../images/Test_Trend.png)
 
 You can filter and view the required data using the following filters:
 
@@ -33,7 +33,7 @@ You can filter and view the required data using the following filters:
 
 You can use these filters to refine the displayed data. For example, you can choose an iteration from the Iteration filter to view the corresponding test trend dashboard. Here is an example iteration-filtered panel.
 
-![Test trend filtered panel](./images/test_trend_filtered_panel.PNG)
+![Test trend filtered panel](../images/test_trend_filtered_panel.PNG)
 
 ### Components of dataset
 The following components of the dataset are used in this dashboard: 

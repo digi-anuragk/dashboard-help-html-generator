@@ -11,7 +11,7 @@ The Portfolio Item Completion dashboard consists of the following tabs:
 - Work Item Count: This tab presents details of portfolio item completion based on the count of backlog items.
 
 Here is an example portfolio item completion panel.
-![Portfolio Item Completion](./images/portfolio_item_completion.PNG)
+![Portfolio Item Completion](../images/portfolio_item_completion.PNG)
 
 You can filter and view the required data using the following filters:
 
@@ -33,7 +33,7 @@ You can filter and view the required data using the following filters:
 
 You can use these filters to refine the displayed data. For example, you can choose a program from the Program filter to view the corresponding dashboard. Here is an example program-filtered panel.
 
-![Portfolio Item Completion filtered panel](./images/portfolio_item_completion_filtered_panel.PNG)
+![Portfolio Item Completion filtered panel](../images/portfolio_item_completion_filtered_panel.PNG)
 
 ### Portfolio Item Completion
 
@@ -43,7 +43,7 @@ Displays an overview of the status of various items within a portfolio. You can 
 
 Displays details of portfolio items including calendar date, portfolio item name,  portfolio item source link, planned and actual portfolio items completed portfolio items. Each row represents a different portfolio item within the selected planning level or program. 
 
-You can also click the ![source](./images/source_icon.PNG) icon against the portfolio item name to launch the source system and view more portfolio item details such as status, description, owner and team.
+You can also click the ![source](../images/source_icon.PNG) icon against the portfolio item name to launch the source system and view more portfolio item details such as status, description, owner and team.
 
 
 

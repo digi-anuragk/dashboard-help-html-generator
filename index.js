@@ -41,7 +41,17 @@ const listDir = (dir, fileList = []) => {
     } else {
       if (/\.md$/.test(file)) {
         let src = path.join(dir, file);
-        fileList.push({ path: src, name: file.slice(0, file.length - 3) });
+        fileList.push({
+          path: src,
+          fullName: file,
+          name: file.slice(0, file.length - 3),
+          dirOnly: src
+            .split(path.sep)
+            .filter((v, i, arr) => {
+              return i !== 0 && i !== arr.length - 1;
+            })
+            .join(path.sep),
+        });
       }
     }
   });
@@ -90,6 +100,7 @@ function main() {
 
   let foundFiles = [];
   listDir("./intelligence", foundFiles);
+  console.log(foundFiles);
   cliProgress.start(foundFiles.length, 0);
   foundFiles.forEach((f, i, arr) => {
     cliProgress.increment();
@@ -98,8 +109,11 @@ function main() {
         fs.readFileSync(path.resolve("./", f.path), { encoding: "utf8" })
       )
       .toString();
+    if (!fs.pathExistsSync(path.resolve("./", "build", f.dirOnly)))
+      fs.mkdirSync(path.resolve("./", "build", f.dirOnly));
+
     fs.writeFileSync(
-      path.resolve("./", "build", f.name + ".html"),
+      path.resolve("./", "build", f.dirOnly, f.name + ".html"),
       generatedFile
     );
   });

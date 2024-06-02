@@ -1,4 +1,4 @@
-import { html, doctype } from "rehype-template";
+import { doctype, html } from "rehype-template";
 
 export const HTMLtemplate = (node, frontmatter) => html`
   ${doctype}

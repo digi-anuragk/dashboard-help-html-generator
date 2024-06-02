@@ -7,6 +7,7 @@ import { h } from "hastscript";
 import { parse } from "yaml";
 import path from "path";
 import rehypeInline from "rehype-inline";
+import rehypePresetMinify from "rehype-preset-minify";
 import rehypeSlug from "rehype-slug";
 import rehypeStringify from "rehype-stringify";
 import rehypeToc from "@jsdevtools/rehype-toc";
@@ -91,6 +92,7 @@ const processor = unified()
     },
   })
   .use(rehypeInline)
+  .use(rehypePresetMinify)
   .use(rehypeStringify);
 
 function main() {
@@ -100,7 +102,6 @@ function main() {
 
   let foundFiles = [];
   listDir("./intelligence", foundFiles);
-  console.log(foundFiles);
   cliProgress.start(foundFiles.length, 0);
   foundFiles.forEach((f, i, arr) => {
     cliProgress.increment();

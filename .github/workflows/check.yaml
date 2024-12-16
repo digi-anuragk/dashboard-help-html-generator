@@ -1,0 +1,41 @@
+name : Check for Stage And Prod
+
+on:
+  push:
+    branches:
+      - "main"
+      - "*"
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+  workflow_dispatch:
+
+jobs:
+  checkEnv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Determine Deployment Environment
+        run: |
+          if [[ "${GITHUB_REF}" == "refs/heads/main" ]]; then
+            echo "Deploying to production"
+            export ENVIRONMENT=production
+          else
+            echo "Deploying to staging"
+            export ENVIRONMENT=staging
+          fi
+      - name : Run ENVIRONMENT
+        run: |
+                # Replace with your deployment script or commands
+                if [[ "${{ env.ENVIRONMENT }}" == "production" ]]; then
+                  # Production deployment commands
+                  echo "Deploying to production..."
+                  # ...
+                else
+                  # Staging deployment commands
+                  echo "Deploying to staging..."
+                  # ...
+                fi

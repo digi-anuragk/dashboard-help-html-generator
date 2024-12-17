@@ -22,7 +22,8 @@ jobs:
     steps:
       - name: Determine Deployment Environment
         run: |
-          if [[ "${GITHUB_REF}" == "refs/heads/main" ]]; then
+          echo 
+          if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
             echo "Deploying to production"
             echo "deploy=production" >> $GITHUB_ENV
           else

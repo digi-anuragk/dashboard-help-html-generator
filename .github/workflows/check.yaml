@@ -34,9 +34,9 @@ jobs:
   BuildJob:
     runs-on: ubuntu-latest
     needs : setEnv
-    environment: ${{ needs.SetDeployEnv.outputs.environment }}
+    environment: ${{ needs.setEnv.outputs.environment }}
     env:
-      environment: ${{ needs.SetDeployEnv.outputs.environment }}
+      environment: ${{ needs.setEnv.outputs.environment }}
     steps:
       - name : Run ENVIRONMENT
         run: |

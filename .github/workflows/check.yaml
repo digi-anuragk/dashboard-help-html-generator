@@ -24,10 +24,10 @@ jobs:
         run: |
           if [[ "${GITHUB_REF}" == "refs/heads/main" ]]; then
             echo "Deploying to production"
-            export ENVIRONMENT=production
+            echo "deploy=production" >> $GITHUB_ENV
           else
             echo "Deploying to staging"
-            export ENVIRONMENT=staging
+            echo "deploy=staging" >> $GITHUB_ENV
           fi
 
   BuildJob:

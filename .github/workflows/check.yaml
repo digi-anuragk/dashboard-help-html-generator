@@ -41,7 +41,7 @@ jobs:
       - name : Run ENVIRONMENT
         run: |
                 # Replace with your deployment script or commands
-                if [[ "${{ env.environment }}" == "production" ]]; then
+                if [[ "$env.environment" == "production" ]]; then
                   # Production deployment commands
                   echo "Deploying to production..."
                   # ...

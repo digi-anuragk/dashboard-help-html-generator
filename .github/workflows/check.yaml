@@ -13,11 +13,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  checkEnv:
+  setEnv:
     runs-on: ubuntu-latest
+    env:
+      deploy : stage
+    outputs:
+      environment: ${{ env.deploy }}
     steps:
-      - uses: actions/checkout@v4
-
       - name: Determine Deployment Environment
         run: |
           if [[ "${GITHUB_REF}" == "refs/heads/main" ]]; then
@@ -27,10 +29,18 @@ jobs:
             echo "Deploying to staging"
             export ENVIRONMENT=staging
           fi
+
+  BuildJob:
+    runs-on: ubuntu-latest
+    needs : setEnv
+    environment: $ {{ needs.SetDeployEnv.outputs.environment }}
+    env:
+      environment: $ {{ needs.SetDeployEnv.outputs.environment }}
+    steps:
       - name : Run ENVIRONMENT
         run: |
                 # Replace with your deployment script or commands
-                if [[ "${{ env.ENVIRONMENT }}" == "production" ]]; then
+                if [[ "${{ env.environment }}" == "production" ]]; then
                   # Production deployment commands
                   echo "Deploying to production..."
                   # ...

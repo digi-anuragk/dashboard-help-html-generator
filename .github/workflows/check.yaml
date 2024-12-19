@@ -35,7 +35,7 @@ jobs:
     environment: ${{ needs.setEnv.outputs.environment }}
     env:
       environment: ${{ needs.setEnv.outputs.environment }}
-      branch : $ {{ needs.setEnv.outputs.branch }}
+      branch : ${{ needs.setEnv.outputs.branch }}
     steps:
       - name : Run ENVIRONMENT
         run: |

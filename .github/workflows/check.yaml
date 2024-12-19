@@ -12,12 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     env:
       deploy : stage
+      branch : no-br
     outputs:
       environment: ${{ env.deploy }}
-      branch: ${{ github.ref##*/ }}
+      branch: ${{ env.branch }}
     steps:
       - name: Determine Deployment Environment
         run: |
+          echo "branch=${GITHUB_REF##*/}" >> $GITHUB_ENV
           echo
           if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
             echo "Deploying to production"
@@ -40,10 +42,10 @@ jobs:
                 # Replace with your deployment script or commands
                 if [[ "$environment" == "production" ]]; then
                   # Production deployment commands
-                  echo "Deploying to production... on ${{ env.branch }}"
+                  echo "Deploying to production... on $branch"
                   # ...
                 else
                   # Staging deployment commands
-                  echo "Deploying to staging...${{ env.branch }}"
+                  echo "Deploying to staging... on $branch"
                   # ...
                 fi

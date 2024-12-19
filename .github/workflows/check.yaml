@@ -14,7 +14,7 @@ jobs:
       deploy : stage
     outputs:
       environment: ${{ env.deploy }}
-      branch: ${ github.ref##*/}
+      branch: ${{ github.ref##*/ }}
     steps:
       - name: Determine Deployment Environment
         run: |

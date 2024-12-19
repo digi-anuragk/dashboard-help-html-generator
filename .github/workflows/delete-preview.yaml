@@ -1,0 +1,14 @@
+name : Delete preview from Staging
+
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  Delete-Job:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "The PR was merged ${GITHUB_HEAD_REF##*/}"

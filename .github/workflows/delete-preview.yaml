@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: |
-        echo "The PR was merged ${{ github.head_ref }}"
+        echo "The PR was merged ${GITHUB_HEAD_REF##*/}"

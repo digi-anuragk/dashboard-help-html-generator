@@ -40,10 +40,10 @@ jobs:
                 # Replace with your deployment script or commands
                 if [[ "$environment" == "production" ]]; then
                   # Production deployment commands
-                  echo "Deploying to production... on $branch"
+                  echo "Deploying to production... on ${{ env.branch }}"
                   # ...
                 else
                   # Staging deployment commands
-                  echo "Deploying to staging...$branch"
+                  echo "Deploying to staging...${{ env.branch }}"
                   # ...
                 fi

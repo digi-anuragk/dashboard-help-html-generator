@@ -40,7 +40,7 @@ jobs:
       - name : Run ENVIRONMENT
         run: |
                 # Replace with your deployment script or commands
-                echo " ${{ secrets.AWS_BUCKET }}
+                echo " ${{ secrets.AWS_BUCKET }} "
                 if [[ "$environment" == "production" ]]; then
                   # Production deployment commands
                   echo "Deploying to production... on $branch"
